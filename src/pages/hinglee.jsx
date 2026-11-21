@@ -23,7 +23,7 @@ const stores = [
     address: "3246 San Gabriel Blvd, #C, Rosemead, CA 91770",
     phone: "(626) 872-6023",
     description: [
-    "A retail store for the Hing Lee family group, the poultry is sourced fresh daily from the main facility in Whittier, as well as Wing Lee Farms."
+    "A retail store for the Hing Lee family group, the poultry is sourced fresh daily from the main facility in Whittier."
     ],    
     image: hingleerosemead,
     alt: "Front entrance of Hing Lee Poultry"
@@ -34,7 +34,7 @@ const stores = [
     address: "4547 Peck Rd, El Monte, CA 91732",
     phone: "(626) 758-1468",
     description: [
-    "A retail store for the Hing Lee family group, the poultry is sourced fresh daily from the main facility in Whittier, as well as Wing Lee Farms. It also sells pork and contains a mini-market for groceries."
+    "A retail store for the Hing Lee family group, the poultry is sourced fresh daily from the main facility in Whittier. It also sells pork and contains a mini-market for groceries."
     ], 
     image: hingleeelmonte,
     alt: "Front entrance of Hinglee Farm Market"
