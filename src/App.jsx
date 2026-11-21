@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/index.jsx";
 import Franchises from "./pages/franchises.jsx";
@@ -9,7 +9,7 @@ import WingOn from "./pages/wingon.jsx";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/poultry-planner">
+    <Router basename="/poultry-planner">
       <Navbar />
 
       <Routes>
@@ -20,6 +20,6 @@ export default function App() {
         <Route path="/franchises/wingon" element={<WingOn />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
