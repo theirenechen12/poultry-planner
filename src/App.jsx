@@ -9,7 +9,7 @@ import WingOn from "./pages/wingon.jsx";
 
 export default function App() {
   return (
-    <Router basename="/poultry-planner">
+    <Router>
       <Navbar />
 
       <Routes>
