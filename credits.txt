@@ -1,0 +1,3 @@
+Credits to https://www.geeksforgeeks.org/reactjs/how-to-create-a-multi-page-website-using-react-js/ for helping me onboard. 
+Also credits to ChatGPT for initial assistance. Later on did all the work alone though. 
+Credits to my former CS3220 Web professor Chengyu Sun for the website design.
