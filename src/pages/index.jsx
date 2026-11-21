@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div>
             <h1>Welcome!</h1>
-            We are a database for poultry markets. Check our franchises and about to see what is in store for us.
+            Welcome to Poultry Planner. Our mission is to help Vietnamese and Chinese communities find the poultry store that they need in an accessible manner.
         </div>
     );
 };

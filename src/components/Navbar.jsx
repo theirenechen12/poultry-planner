@@ -18,19 +18,19 @@ export default function Navbar() {
 
         <Dropdown>
         <DropdownButton type="button">
-          Franchises ▾
+          Network ▾
         </DropdownButton>
 
         <SubMenu>
-          <SubNavLink to="franchises/winglee">
+          <SubNavLink to="networks/winglee">
             Wing Lee Farms
           </SubNavLink>
 
-          <SubNavLink to="/franchises/wingon">
+          <SubNavLink to="/networks/wingon">
             Wing On Poultry
           </SubNavLink>
 
-          <SubNavLink to="/franchises/hinglee">
+          <SubNavLink to="/networks/hinglee">
             Hinglee Farm Market
           </SubNavLink>
         </SubMenu>
