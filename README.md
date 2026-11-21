@@ -1,3 +1,3 @@
 # Poultry app
 
-This app is a database that is user accessible and allows them to easily know which poultry store to go to.
+This app is a user-accessible database that helps people find poultry stores to visit.
