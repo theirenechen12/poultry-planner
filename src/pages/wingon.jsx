@@ -127,7 +127,7 @@ export default function WingOn() {
 
   return (
     <main>
-      <h1>Wing On Farms</h1>
+      <h1>Wing On Poultry</h1>
 
       <label htmlFor="store">Choose an address: </label>
 
