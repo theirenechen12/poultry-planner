@@ -1,8 +1,8 @@
 import superiorpoultrychinatown from "../assets/superiorpoultrychinatown.jpg";
 import marketlasuperior from "../assets/marketlasuperior.png";
+import superiorpoultryela from "../assets/superiorpoultryela.webp";
 import pekingpoultry from "../assets/pekingpoultry.jpg";
 import sanfranciscopoultry from "../assets/sanfranciscopoultry.jpg";
-import superiorpoultryela from "../assets/superiorpoultryela.webp";
 import waikikiepollos from "../assets/waikikiepollos.jpg";
 import majesticpoultryalhambra from "../assets/majesticpoultryalhambra.webp";
 import wingonmontereypark from "../assets/wingonmontereypark.webp";
@@ -35,10 +35,22 @@ const stores = [
     description: [
     "Formerly located on 270 Monterey Pass Rd, the place was closed on September 2026. As of September 2026 they have moved operations right next to Superior Poultry ELA. Prior to this closure, it was known as Market La Superior or Wing On Market.",
     "The location participated in receiving items from their main location in Chinatown and wholesaling them to their other stores, as well as a retail store. Now that it is next door to Superior Poultry (ELA), assuming Superior Poultry ELA still slaughters on site, they may not need to go from Chinatown to Monterey Park to their retail stores anymore they can just go from East Los Angeles all the way to their retail stores directly. Even if we count that Superior doesn't, it still is more convenient than the former.",
-    "The opening date of this store has yet to be announced, so be patient."
     ],
     image: marketlasuperior,
     alt: "Front entrance of Market La Superior" 
+  },
+  {
+    id: "superiorpoultryela",
+    name: "Superior Poultry",
+    phone: "(323) 261-4313",
+    address: "450 N Ford Blvd, Los Angeles, CA 90022",
+    description: [
+    "Formerly known as Majestic Poultry and currently also known as Superior Poultry ELA, the shop was renamed Superior Poultry in 2018. For decades, the shop slaughtered and butchered live birds on the spot, preserving freshness as the bag is handed warm rather than cool to you minutes after slaughter. It is speculated they do not sell live birds on site anymore ever since the rebrand and that the birds come in pre-slaughtered and pre-dead from the main shop in Chinatown.",
+    "It does, however, have Market La Superior right next door to it. Market La Superior was formerly located in Monterey Park and relocated there since. Before, chickens would be slaughtered in Chinatown then moved to Monterey Park before being wholesaled. Now, assuming Superior still slaughters on site it may just need to go from East Los Angeles to their retail stores directly.",
+    "It still isn't guaranteed that Superior Poultry slaughters chickens anymore. It could just be an extension of Market La Superior meaning they go from Chinatown to East Los Angeles to their retail stores, which is still more convenient than the former. Still, regardless of where the birds came from, they are much fresher than supermarket chicken as many supermarket chicken has been sitting for days while a chicken sold at this shop was slaughtered hours ago prior to purchase if not minutes ago. In addition, it has a large variety of selections. It even has a mini market for groceries, such as lettuce and rice."
+    ],
+    image: superiorpoultryela,
+    alt: "Front entrance of Superior Poultry"
   },
   {
     id: "pekingpoultry",
@@ -58,24 +70,11 @@ const stores = [
     phone: "(415) 781-8883",
     address: "1114 Grant Ave, San Francisco, CA 94133",
     description: [
-    "Also known as Wing On Poultry, Wing On Poultry has expanded out of Southern California into San Francisco, which like Chinatown, has a large number of Asian immigrants and descendants. San Francisco is known for various Chinese cultural associations, such as the Gin Sun Hall Benevolent Association. Larry Gean, the father of Cal State LA former network administrator Edmund Gean and Miss Asian Global pageant administrative director Julunda Mendoza, was a former president of that association prior to his death. The Gean family resides less than a mile away from San Francisco Poultry, making San Francisco Poultry easily accessible to them. The large immigration of Chinese immigrants began ever since the Gold Rush in the mid 19th century.",
+    "Also known as Wing On Poultry, Wing On Poultry has expanded out of Southern California into San Francisco, which like Chinatown, has a large number of Asian immigrants and descendants. San Francisco is known for various Chinese cultural associations, such as the Gin Sun Hall Benevolent Association. Larry Gean, the father of Cal State LA former network administrator Edmund Gean and Miss Asian Global pageant administrative director Julunda Mendoza, was a former president of that association prior to his death. The Gin Family Association is a mere one-fifths of a mile away from San Francisco Poultry, making San Francisco Poultry easily accessible to them. The large immigration of Chinese immigrants began ever since the Gold Rush in the mid 19th century.",
     "It sells various selections of live birds which are slaughtered and processed on the spot while you wait, preserving freshness as the bag is handed warm rather than cool to you minutes after slaughter. Alternatively, unlike most live markets where you are not allowed to take the bird home unless it has been processed/slaughtered, this shop allows you to take the bird home live, allowing you to slaughter the bird yourself, whether its due to religion or out of curiosity, or continue raising them for longer if you want to start a new poultry farm and get eggs from them. However, this is not recommended, as any live poultry that has left the store lies responsibility in the customer rather than the shop. Next door is another poultry butcher shop, known as Man Sung Market, though unlike San Francisco Poultry it may not slaughter on site."
     ],
     image: sanfranciscopoultry,
     alt: "Front entrance of San Francisco Poultry"
-  },
-  {
-    id: "superiorpoultryela",
-    name: "Superior Poultry",
-    phone: "(323) 261-4313",
-    address: "450 N Ford Blvd, Los Angeles, CA 90022",
-    description: [
-    "Formerly known as Majestic Poultry and currently also known as Superior Poultry ELA, the shop was renamed Superior Poultry in 2018. For decades, the shop slaughtered and butchered live birds on the spot, preserving freshness as the bag is handed warm rather than cool to you minutes after slaughter. It is speculated they do not sell live birds on site anymore ever since the rebrand and that the birds come in pre-slaughtered and pre-dead from the main shop in Chinatown.",
-    "It does, however, have Market La Superior right next door to it. Market La Superior was formerly located in Monterey Park and relocated there since. Before, chickens would be slaughtered in Chinatown then moved to Monterey Park before being wholesaled. Now, assuming Superior still slaughters on site it may just need to go from East Los Angeles to their retail stores directly.",
-    "It still isn't guaranteed that Superior Poultry slaughters chickens anymore. It could just be an extension of Market La Superior meaning they go from Chinatown to East Los Angeles to their retail stores, which is still more convenient than the former. Still, regardless of where the birds came from, they are much fresher than supermarket chicken as many supermarket chicken has been sitting for days while a chicken sold at this shop was slaughtered hours ago prior to purchase if not minutes ago. In addition, it has a large variety of selections. It even has a mini market for groceries, such as lettuce and rice."
-    ],
-    image: superiorpoultryela,
-    alt: "Front entrance of Superior Poultry"
   },
   {
     id: "waikikiepollos",
