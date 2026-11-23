@@ -1,8 +1,8 @@
 import superiorpoultrychinatown from "../assets/superiorpoultrychinatown.jpg";
-import marketlasuperior from "../assets/marketlasuperior.png";
 import superiorpoultryela from "../assets/superiorpoultryela.webp";
-import pekingpoultry from "../assets/pekingpoultry.jpg";
+import marketlasuperior from "../assets/marketlasuperior.png";
 import sanfranciscopoultry from "../assets/sanfranciscopoultry.jpg";
+import pekingpoultry from "../assets/pekingpoultry.jpg";
 import waikikiepollos from "../assets/waikikiepollos.jpg";
 import majesticpoultryalhambra from "../assets/majesticpoultryalhambra.webp";
 import wingonmontereypark from "../assets/wingonmontereypark.webp";
@@ -28,18 +28,6 @@ const stores = [
     alt: "Front entrance of Superior Poultry"
   },
   {
-    id: "marketlasuperior",
-    name: "Market La Superior",
-    phone: "To Be Announced",
-    address: "4513 Dozier St, Los Angeles, CA 90022",
-    description: [
-    "Formerly located on 270 Monterey Pass Rd, the place was closed on September 2026. As of September 2026 they have moved operations right next to Superior Poultry ELA. Prior to this closure, it was known as Market La Superior or Wing On Market.",
-    "The location participated in receiving items from their main location in Chinatown and wholesaling them to their other stores, as well as a retail store. Now that it is next door to Superior Poultry (ELA), assuming Superior Poultry ELA still slaughters on site, they may not need to go from Chinatown to Monterey Park to their retail stores anymore they can just go from East Los Angeles all the way to their retail stores directly. Even if we count that Superior doesn't, it still is more convenient than the former.",
-    ],
-    image: marketlasuperior,
-    alt: "Front entrance of Market La Superior" 
-  },
-  {
     id: "superiorpoultryela",
     name: "Superior Poultry",
     phone: "(323) 261-4313",
@@ -53,16 +41,16 @@ const stores = [
     alt: "Front entrance of Superior Poultry"
   },
   {
-    id: "pekingpoultry",
-    name: "Peking Poultry",
-    address: "717 N Broadway, Los Angeles, CA 90012",
-    phone: "(213) 680-2588",
+    id: "marketlasuperior",
+    name: "Market La Superior",
+    phone: "To Be Announced",
+    address: "4513 Dozier St, Los Angeles, CA 90022",
     description: [
-    "Another live poultry market of the Wing On (永安) network. While Peking Poultry usually transliterates as 北京雞鴨欄, on official signage outside the shop, it shows instead as 北京永安雞鴨欄, showing it is a part of the Wing On Poultry network. Not only that, but the store even frequently advertises Wing On Poultry as shown in its advertisement on walls, as well as its products, unlike Superior who only advertises it is a part of the Wing On network through its Chinese name 永安.",
-    "Like Superior Poultry, the birds are sold live rather than from exterior distributors, preserving freshness as the bag is handed warm rather than cool to you minutes after slaughter. This store, in addition to poultry, has a selection of live fish and fresh pork, as well as multiple sections for groceries, making it more of a grocery store specialized in various forms of meat than a mere poultry store unlike Superior Poultry which exclusively sells poultry."
+    "Also known as Superior Wings. Formerly located on 270 Monterey Pass Rd, as of September 2026, they have since moved operations to operate right next to Superior Poultry ELA, making operations more convenient. Prior to this closure, it was also known as Wing On Market.",
+    "They previously participated in receiving items from their main location in Chinatown and wholesaling them to their other stores, as well as a retail store. Now that it is next door to Superior Poultry (ELA), assuming Superior Poultry ELA still slaughters on site, they may not need to go from Chinatown to Monterey Park to their retail stores anymore they can just go from East Los Angeles all the way to their retail stores directly. Even if we count that Superior doesn't, it still is more convenient than the former.",
     ],
-    image: pekingpoultry,
-    alt: "Front entrance of Peking Poultry"
+    image: marketlasuperior,
+    alt: "Front entrance of Market La Superior" 
   },
   {
     id: "sanfranciscopoultry",
@@ -75,6 +63,18 @@ const stores = [
     ],
     image: sanfranciscopoultry,
     alt: "Front entrance of San Francisco Poultry"
+  },
+  {
+    id: "pekingpoultry",
+    name: "Peking Poultry",
+    address: "717 N Broadway, Los Angeles, CA 90012",
+    phone: "(213) 680-2588",
+    description: [
+    "Another live poultry market of the Wing On (永安) network. While Peking Poultry usually transliterates as 北京雞鴨欄, on official signage outside the shop, it shows instead as 北京永安雞鴨欄, showing it is a part of the Wing On Poultry network. Not only that, but the store even frequently advertises Wing On Poultry as shown in its advertisement on walls, as well as its products, unlike Superior who only advertises it is a part of the Wing On network through its Chinese name 永安.",
+    "Like Superior Poultry, the birds are sold live rather than from exterior distributors, preserving freshness as the bag is handed warm rather than cool to you minutes after slaughter. This store, in addition to poultry, has a selection of live fish and fresh pork, as well as multiple sections for groceries, making it more of a grocery store specialized in various forms of meat than a mere poultry store unlike Superior Poultry which exclusively sells poultry."
+    ],
+    image: pekingpoultry,
+    alt: "Front entrance of Peking Poultry"
   },
   {
     id: "waikikiepollos",
