@@ -26,8 +26,32 @@ export default function Navbar() {
             Wing Lee Farms
           </SubNavLink>
 
+          <SubNavLink to="/networks/vikon">
+            Vikon Farms
+          </SubNavLink>
+
           <SubNavLink to="/networks/wingon">
             Wing On Poultry
+          </SubNavLink>
+
+          <SubNavLink to="/networks/highland">
+            Highland Live Poultry
+          </SubNavLink>
+
+          <SubNavLink to="/networks/shanglee">
+            Shang Lee Poultry
+          </SubNavLink>
+
+          <SubNavLink to="/networks/imperial">
+            Imperial Poultry
+          </SubNavLink>
+
+          <SubNavLink to="/networks/dakao">
+            Dakao Poultry
+          </SubNavLink>
+
+          <SubNavLink to="/networks/baladi">
+            Baladi Poultry
           </SubNavLink>
 
           <SubNavLink to="/networks/hinglee">

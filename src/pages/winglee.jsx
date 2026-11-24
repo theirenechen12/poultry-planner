@@ -5,7 +5,8 @@ import wingleeelmonte from "../assets/wingleeelmonte.jpg";
 import wingleelapuente from "../assets/wingleelapuente.jpg";
 import wingleesanjose from "../assets/wingleesanjose.jpg";
 import wingleepomona from "../assets/wingleepomona.jpg";
-import wingleearizona from "../assets/wingleearizona.jpg"
+import wingleearizona from "../assets/wingleearizona.jpg";
+import frescopoultry from "../assets/frescopoultry.webp";
 
 import { useState } from "react";
 
@@ -100,6 +101,17 @@ const stores = [
     ],
     image: wingleearizona,
     alt: "Front entrance of Wing Lee Exotic Fruits Market"
+  },
+  {
+    id: "frescopoultry",
+    name: "Fresco Poultry",
+    address: "9766 Chapman Ave, Garden Grove, CA 92841",
+    phone: "(714) 590-6181",
+    description: [
+    "An independent retail store which sells fresh poultry, as well as groceries. While not owned by the Wing Lee group, it exclusively relies on Wing Lee Farms in Chino for their poultry products as shown in their advertisements inside the shop."
+    ],
+    image: frescopoultry,
+    alt: "Front entrance of Fresco Poultry"
   }
 ];
 
