@@ -10,8 +10,7 @@ const stores = [
     phone: "(213) 742-9970",
     description: [
     "Imperial Poultry is known for its large varieties of poultry, which range from chickens, ducks, quails, rabbit, and turkey. Owned by Carmen and Elmo Perez, the shop opened over 30 years ago. It caters to the Chinese and Latino communitities with a large Latino customer base.",
-    "While the shop ever since COVID-19 does not allow customers to take a breathing chicken home and only sells fresh poultry, this shop has been known for decades for selling these poultry live, then slaughtering and processing them while you wait, preserving freshness as the bag is handed warm rather than cool to you minutes after slaughter. The chickens has and always will be superior to frozen supermarket chicken.",
-    "Next store, the shop contains a mini-market for groceries, such as rice, vegetables, chicken broths, and sodas."
+    "While the shop ever since COVID-19 does not allow customers to take a breathing chicken home and only sells fresh poultry, this shop has been known for decades for selling these poultry live, then slaughtering and processing them while you wait, preserving freshness as the bag is handed warm rather than cool to you minutes after slaughter. The chickens has and always will be superior to frozen supermarket chicken."
     ],    
     image: imperialpoultry,
     alt: "Front entrance of Imperial Poultry"
